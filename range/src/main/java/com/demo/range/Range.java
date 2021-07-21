@@ -60,6 +60,9 @@ public class Range
 		rangesTwo.add(new Range(94200, 94299));
 
 		// more complicated case
+		// added overlapped and non overlapped ranges
+		// to the left and the right sides of the collections
+		// to test
 		rangesThree.add(new Range(94226, 94399));
 		rangesThree.add(new Range(94133, 94133));
 		rangesThree.add(new Range(94200, 94299));
