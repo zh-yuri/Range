@@ -18,7 +18,9 @@
  		current interval to merged. Otherwise, they do overlap, and we merge them by updating the 
  		end of the previous interval if it is less than the end of the current interval. 
  		Stack or List could be used for storing merged intervals (ranges). 
- 		In my solution I avoided O(n) extra space for the stack, merging ranges "on-a-fly" 
+ 		
+ 		In my solution I avoided O(n) extra space for the stack by merging ranges "on-a-fly".
+ 		So, the solution does not allocate additional space (List in my case) for the output/result. 
  		Time Complexity O(nLogn), Space Complexity O(1). 
  		
  As for a good practice in my solution I used: 
